@@ -12,7 +12,7 @@ alongside a randomly generated [Salt](https://en.wikipedia.org/wiki/Salt_(crypto
 [HMAC](https://en.wikipedia.org/wiki/HMAC)
 > Keyed-Hash Message Authentication Code
 > 
-HMAC is a specific construction for calculating [MAC](https://en.wikipedia.org/wiki/Message_authentication_code) to be used in combination with our hash function and secret cryptographic key. In this case, we use the SHA512 for calculating our hash.
+HMAC is a specific construction for calculating [MAC](https://en.wikipedia.org/wiki/Message_authentication_code) to be used in combination with our hash function and secret cryptographic key. In this case, we use the [SHA512](https://en.wikipedia.org/wiki/SHA-2) for calculating our hash.
 
 ### Usage:
 To use the small snippet of code that is part of this repository. You must first add the PBKDF2WithHmacSHA512.java to your project. This class uses no dependencies and relies on the ciper to already be present on your system.
