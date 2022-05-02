@@ -34,7 +34,7 @@ boolean authenticated = PBKDF2WithHmacSHA512.authenticate(attemptedPassword, sal
 ## Contributing
 Contributions are welcome whether it is for small bug fixes or new pieces of major functionality. To contribute changes, you should first fork the upstream repository to your own GitHub account. You can then add a new remote for `upstream` and rebase any changes you make and keep up-to-date with the upstream.
 
-`git remote add upstream https://github.com/skdev/RuneScape-Private-Server.git`
+`git remote add upstream https://github.com/surajkumar/PBKDF2WithHmacSHA512.git`
 
 ## Acknowledgements
 The code provided is a wrapper of the existing functions built into the JDK. The PBKDF2WithHmacSHA512 is not re-created from scratch in this repository. As such, the cryptographic cipher must be available on your system.
